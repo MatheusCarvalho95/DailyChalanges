@@ -1,0 +1,55 @@
+body {
+    background-color: #8E07C0;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+p {
+    margin: 0;
+}
+
+.main {
+    display: block;
+    padding: 15%;
+}
+
+.payForm {
+    padding: 15px;
+    margin: auto;
+    display: block;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgba(239, 234, 241, 0.7);
+}
+
+.payForm i {
+    margin: 3px
+}
+
+input {
+    border: 1px solid #9052a7;
+    border-radius: 5px;
+    background-color: #D2A6E2
+}
+
+input:focus {
+    outline-color: #8E07C0;
+    border-radius: 5px;
+    background-color: rgb(239, 234, 241);
+}
+
+select {
+    border: 1px solid #9052a7;
+    border-radius: 5px;
+    background-color: #D2A6E2
+}
+
+select:focus {
+    outline-color: #8E07C0;
+    border-radius: 5px;
+    background-color: rgb(239, 234, 241);
+}

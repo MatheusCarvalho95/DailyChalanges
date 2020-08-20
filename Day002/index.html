@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main container">
+
+        <div class="payForm">
+            <h1>Card Information:</h1>
+            <form>
+                <div class="form-group row " id="name ">
+                    <div class="col ">
+                        <p>Name on the card:</p>
+                        <input type="text " name="name " id="nameInput " size="30 " required>
+
+                        <div class="form-group " id="number ">
+                            <p>Number</p>
+                            <input type="text " name="number " id="numberInput " pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4} " required maxlenght="16 " size="16 ">
+                        </div>
+                        <i id="visaicon" class=" fab fa-cc-visa fa-4x"></i><i class="fab fa-cc-mastercard fa-4x "></i>
+                    </div>
+
+                    <div class="col ">
+                        <div class="form-group " id="cvv ">
+                            <p>CVV</p>
+                            <input type="text " name="cvv " size="3 " max-lenght="3 ">
+                        </div>
+                        <div class="form-group " id="expirationForm ">
+                            <label>Expiration Date</label>
+                            <select class="form-group " id="expirationMonth ">
+                        <option value="01 ">January</option>
+                        <option value="02 ">February</option>
+                        <option value="03 ">March</option>
+                        <option value="04 ">April</option>
+                        <option value="05 ">May</option>
+                        <option value="06 ">June</option>
+                        <option value="07 ">July</option>
+                        <option value="08 ">August</option>
+                        <option value="09 ">September</option>
+                        <option value="10 ">October</option>
+                        <option value="11 ">November</option>
+                        <option value="12 ">December</option>
+                    </select class="form-group " id="expirationYear ">
+                    <select value="2020 ">2020</option>
+                    <option value="2021 ">2021</option>
+                    <option value="2022 ">2022</option>
+                    <option value="2023 ">2023</option>
+                    <option value="2024 ">2024</option>
+                    <option value="2025 ">2025</option>
+                    <option value="2026 ">2026</option>
+                    <option value="2027 ">2027</option>
+                    <option value="2028 ">2028</option>
+                    <option value="2029 ">2029</option>
+                    <option value="2030 ">2030</option></select>
+                            <button class="btn btn-outline-success">Pay!</button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/5c8de2b50a.js " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+</body>
+
+</html>
