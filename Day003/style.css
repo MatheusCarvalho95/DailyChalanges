@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+#header {
+    background-color: rgba(50, 50, 192, 0.918);
+    margin: auto;
+    padding: 5%;
+    border-bottom: 2px solid darkblue;
+}
+
+#header h1 {
+    font-size: 5rem
+}
+
+.body-top {
+    background-color: deepskyblue;
+}
+
+#body h1 {
+    font-size: 3rem;
+}
+
+#body li {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.body-footer {
+    background-color: mediumturquoise;
+}
+
+.body-body {
+    border-bottom: 2px solid darkblue;
+}
+
+.footer {
+    background-color: steelblue;
+}
+
+.footer-footer {
+    background-color: mediumspringgreen
+}
+
+hr {
+    margin: 0
+}
