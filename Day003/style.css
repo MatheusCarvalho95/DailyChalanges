@@ -6,7 +6,7 @@ body {
 #header {
     background-color: rgba(50, 50, 192, 0.918);
     margin: auto;
-    padding: 5%;
+    padding: 5.5%;
     border-bottom: 2px solid darkblue;
 }
 
@@ -75,8 +75,6 @@ input {
 a:hover {
     color: olivedrab;
 }
-
-.row-have {}
 
 .what-have {
     border: 2px solid navy;
