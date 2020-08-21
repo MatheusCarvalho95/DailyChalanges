@@ -67,7 +67,7 @@ input {
     border-radius: 5px;
 }
 
-a {
+#header a {
     font-size: 3rem;
     color: yellowgreen;
 }
