@@ -62,6 +62,19 @@ button {
     margin-bottom: 3%;
 }
 
+.what-have {
+    border: 2px solid navy;
+}
+
+img {
+    width: 200px;
+}
+
+.more {
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
 input {
     background-color: rgba(50, 50, 192, 0.918);
     border-radius: 5px;
@@ -74,17 +87,4 @@ input {
 
 a:hover {
     color: olivedrab;
-}
-
-.what-have {
-    border: 2px solid navy;
-}
-
-img {
-    width: 200px;
-}
-
-.more {
-    margin-bottom: 0;
-    font-size: 3rem;
 }
