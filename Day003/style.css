@@ -75,3 +75,18 @@ a {
 a:hover {
     color: olivedrab;
 }
+
+.row-have {}
+
+.what-have {
+    border: 3px solid;
+}
+
+img {
+    width: 200px;
+}
+
+.more {
+    margin-bottom: 0;
+    font-size: 3rem;
+}
