@@ -1,0 +1,29 @@
+.calc-face {
+    width: 200px;
+    height: 230x;
+    display: block;
+    margin: 30%;
+    border: 2px solid;
+    background-color: floralwhite;
+}
+
+.btn {
+    margin: 0;
+    display: inline-block;
+    border: 1px solid black;
+    width: 49px;
+}
+
+.col,
+.col-sm {
+    padding: 0;
+    flex-grow: 0;
+}
+
+.row {
+    margin-left: 0;
+}
+
+.btn:hover {
+    background-color: turquoise
+}
